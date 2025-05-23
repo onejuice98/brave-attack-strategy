@@ -1,0 +1,4 @@
+- Offensive Skill Timing
+- Avoid overusing skills early
+- Use skills when enemy HP is below 50%
+- In resource conservation mode, use first skill only as a finisher

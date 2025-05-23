@@ -1,0 +1,5 @@
+- Retreat if HP drops below 30%
+- If a healer is nearby, move toward healer for recovery
+- If no healer, retreat toward tank for cover
+- If enemy HP is also low, consider finishing blow before retreating
+- If enemy uses projectile attacks, retreat using terrain cover

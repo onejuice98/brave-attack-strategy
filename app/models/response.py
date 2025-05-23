@@ -1,10 +1,24 @@
-from pydantic import BaseModel
-from typing import Optional, Union, Literal, List, Tuple
+from typing import List, Optional, Union
+from pydantic import BaseModel, Field
 
 
-class LLMResponse(BaseModel):
-    action: Literal["attack", "move", "defend", "use_skill", "wait"]
-    target: Optional[Union[str, List[int], Tuple[int, int]]] = None
-    skill_name: Optional[str] = None  # 사용할 스킬이 명시되는 경우
-    direction: Optional[str] = None  # move 시: "up", "down", "left", "right"
-    reason: Optional[str] = None  # 왜 이런 판단을 했는지 (설명)
+class UnitAction(BaseModel):
+    unit_id: str = Field(description="The unique identifier for the unit.")
+    action: str = Field(
+        description="The decided action: 'move', 'attack', 'defend', 'skill', or 'wait'"
+    )
+    target: Optional[Union[str, List[float]]] = Field(
+        default=None,
+        description="Action target: enemy id (str), position coordinates [x, y], or null",
+    )
+    skill_id: Optional[str] = Field(
+        default=None, description="Identifier for skill if action is 'skill', else null"
+    )
+    turn: int = Field(description="Turn number for this action to be executed")
+
+
+class CommanderResponse(BaseModel):
+    commander_id: str = Field(description="Unique identifier of LLM commander")
+    unit_actions: List[List[UnitAction]] = Field(
+        description="List of units' sequential action plans"
+    )

@@ -1,0 +1,11 @@
+### Strategy Type: Resource Conservation (Endurance Focus)
+
+## Situational Awareness
+- When battle has multiple waves
+- When skill cooldowns or healing resources are limited
+
+## Action Guidelines
+- Use basic attacks when enemy numbers are low
+- Healer only heals when ally HP < 40%
+- Use skills only for guaranteed finishes
+- Spread out to avoid AoE damage while maintaining formation

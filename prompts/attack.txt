@@ -1,6 +1,0 @@
-You're an AI controlling a unit in a strategy game.
-
-{situation}
-
-Given this, decide what action to take and return a JSON like:
-{ "action": "attack", "target": "enemy_id" }

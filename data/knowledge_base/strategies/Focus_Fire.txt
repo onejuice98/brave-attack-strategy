@@ -1,0 +1,11 @@
+### Strategy Type: Focus Fire (Breakthrough One Point)
+
+## Situational Awareness
+- When enemy maintains defensive formation
+- When a quick victory is required within a turn limit
+
+⚔ Action Guidelines
+- Target: low-defense enemy unit away from frontline
+- Tanks clear the path toward target zone
+- DPS and supports concentrate firepower on single point
+- Follow up with defensive stances to minimize counterattacks
