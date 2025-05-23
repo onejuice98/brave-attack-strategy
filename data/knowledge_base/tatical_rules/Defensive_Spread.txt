@@ -1,0 +1,2 @@
+- Maintain 2–3 tile spacing to avoid AoE
+- Stay within healer’s range

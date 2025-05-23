@@ -1,0 +1,2 @@
+- When outnumbered or at a disadvantage, send a low-value or tanky unit to provoke enemy targeting (aggro)
+- This allows high-value units to reposition or execute powerful skills safely

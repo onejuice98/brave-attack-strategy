@@ -1,0 +1,2 @@
+- If multiple units have ultimate skills ready, delay activation until all can strike in the same turn
+- Target a cluster of enemies or a boss unit for synchronized burst damage

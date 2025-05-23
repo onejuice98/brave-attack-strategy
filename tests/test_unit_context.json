@@ -1,0 +1,74 @@
+{
+    "commander_id": "commander_alpha",
+    "commander_side": "ally",
+    "battlefield": {
+        "turn_number": 1,
+        "terrain": "stone bridge over river",
+        "objectives": "protect all allies and defeat enemies"
+    },
+    "units": [
+        {
+            "unit_id": "ally_01",
+            "team": "ally",
+            "role": "tank",
+            "position": {
+                "x": 5.0,
+                "y": 3.0
+            },
+            "hp": 90,
+            "max_hp": 100,
+            "status": null,
+            "action_points": 3,
+            "skills": [
+                {
+                    "skill_id": "taunt",
+                    "name": "Taunt",
+                    "cooldown": 0,
+                    "is_available": true
+                }
+            ]
+        },
+        {
+            "unit_id": "ally_02",
+            "team": "ally",
+            "role": "dealer",
+            "position": {
+                "x": 4.0,
+                "y": 3.0
+            },
+            "hp": 70,
+            "max_hp": 100,
+            "status": null,
+            "action_points": 3,
+            "skills": [
+                {
+                    "skill_id": "fire_arrow",
+                    "name": "Fire Arrow",
+                    "cooldown": 0,
+                    "is_available": true
+                }
+            ]
+        },
+        {
+            "unit_id": "enemy_01",
+            "team": "enemy",
+            "role": "dealer",
+            "position": {
+                "x": 7.0,
+                "y": 3.0
+            },
+            "hp": 100,
+            "max_hp": 100,
+            "status": null,
+            "action_points": 3,
+            "skills": [
+                {
+                    "skill_id": "poison",
+                    "name": "Poison Claw",
+                    "cooldown": 0,
+                    "is_available": true
+                }
+            ]
+        }
+    ]
+}

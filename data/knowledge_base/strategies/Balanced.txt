@@ -1,0 +1,13 @@
+### Strategy Type: Balanced (General Combat Maintenance)
+
+## Situational Awareness
+- When battles are expected to last long
+- When enemy attack and defense are average
+- When allied HP and skill resources are sufficient
+
+## Action Guidelines
+- Maintain movements based on unit roles
+- Tank takes front position and draws aggro
+- DPS units stay behind the tank and deal damage
+- Healer stays within range of tank and DPS
+- Use skills mid-battle while monitoring cooldowns

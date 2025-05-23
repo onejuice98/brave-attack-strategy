@@ -1,0 +1,11 @@
+### Strategy Type: Assassination (High-Priority Target Elimination)
+
+## Situational Awareness
+- When strong enemy buffer/DPS units are in the backline
+- When allied assassin units have high mobility or stealth
+
+## Action Guidelines
+- Assassins approach target by flanking enemy formation
+- Target priority: low defense and high threat units
+- Retreat to cover after kill
+- If spotted, coordinate escape with front-line units
